@@ -1,0 +1,202 @@
+/*////////////////////////
+    Table of Contents
+    1. Global Styles
+    2. Typography
+    3. Layout
+        3.1 Reusables
+        3.2 Other
+    4. Areas
+        4.1 Header
+        4.2 Introduction
+        etc.
+    5. Media Queries
+////////////////////////*/
+
+/* ------------------------------- 1. Global Styles -------------------------------- */
+<<<<<<< HEAD:Opmaak.css
+=======
+<
+style >
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@100&display=swap');
+<
+/
+style >
+< style >
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@100&display=swap');
+<
+/
+style >
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 4px solid green;
+}
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+</style>
+
+  body {
+      font-family: 'Roboto', sans-serif;
+
+  }
+
+h1, h2, h3 {
+    font-family: 'Merriweather', sans-serif;
+}
+>>>>>>> 3d5de28 (first update):styles.css
+
+/* ------------------------------- 2. Typography ----------------------------------- */
+
+/* ------------------------------- 3. Layout --------------------------------------- */
+
+<<<<<<< HEAD:Opmaak.css
+=======
+.inner-container {
+    flex-basis: 1400px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hdr-mn {
+    padding: 50px 100px 200px 100px;
+}
+
+.header__navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.header__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    list-style: none;
+}
+
+.header__welcome {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #5722CD;
+    margin-top: 100px;
+}
+
+.header__btn {
+    color: white;
+    background-color: #ED4385;
+    border: none;
+    border-radius: 100px;
+    border-width: 40px;
+    height: 50px;
+    width: 200px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    flex-basis: 400px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    max-width: 900px;
+    max-height: 500px;
+    padding: 150px 100px 50px 150px;
+}
+
+.intro-header {
+    color: #5722CD;
+    font-size: 25px;
+
+}
+
+.article-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #F3F6F9;
+    padding: 50px;
+}
+
+.article-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-around;
+    height: 400px;
+    width: 500px;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+
+.img-right {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    justify-content: right;
+    float: right;
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    padding-left: 150px;
+}
+
+.variety {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: space-evenly;
+    align-content: space-around;
+    height: 400px;
+    width: 500px;
+    padding-right: 100px;
+    padding-left: 50px;
+    background-color: red;
+    order: 0;
+}
+
+.img-two {
+    display: inline;
+    flex-direction: row;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: left;
+    float: left;
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    padding-left: 150px;
+    order: 1;
+}
+
+.
+
+>>>>>>> 3d5de28 (first update):styles.css
+/* --------------- 3.1 Reusables ----------------------- */
+
+/* --------------- 3.2 Other --------------------------- */
+
+/* ------------------------------- 4. Areas ---------------------------------------- */
+
+/* --------------- 4.1 Header ------------------------- */
+
+/* --------------- 4.2 Introduction ------------------- */
+
+/* ------------------------------- 5. Media Queries -------------------------------- */
