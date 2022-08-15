@@ -13,48 +13,31 @@
 ////////////////////////*/
 
 /* ------------------------------- 1. Global Styles -------------------------------- */
-<<<<<<< HEAD:Opmaak.css
-=======
-<
-style >
-
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@100&display=swap');
-<
-/
-style >
-< style >
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@100&display=swap');
-<
-/
-style >
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 4px solid green;
 }
-
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
-</style>
 
   body {
       font-family: 'Roboto', sans-serif;
-
-  }
+}
 
 h1, h2, h3 {
     font-family: 'Merriweather', sans-serif;
 }
->>>>>>> 3d5de28 (first update):styles.css
 
 /* ------------------------------- 2. Typography ----------------------------------- */
 
 /* ------------------------------- 3. Layout --------------------------------------- */
 
-<<<<<<< HEAD:Opmaak.css
-=======
+.outer-container {
+    flex-basis: 100%;
+    background-color: #5722CD;
+}
+
 .inner-container {
     flex-basis: 1400px;
     flex-grow: 0;
@@ -83,6 +66,7 @@ h1, h2, h3 {
     flex-grow: 0;
     flex-shrink: 1;
     list-style: none;
+    color: #F3F6F9;
 }
 
 .header__welcome {
@@ -92,6 +76,8 @@ h1, h2, h3 {
     text-align: center;
     background-color: #5722CD;
     margin-top: 100px;
+    color: #F3F6F9;
+
 }
 
 .header__btn {
@@ -116,12 +102,14 @@ h1, h2, h3 {
     flex-shrink: 1;
     max-width: 900px;
     max-height: 500px;
-    padding: 150px 100px 50px 150px;
+    padding: 100px 100px 100px 100px;
 }
 
 .intro-header {
     color: #5722CD;
     font-size: 25px;
+    padding: 0px 10px 50px 0px;
+    row-gap: 100px;
 
 }
 
@@ -135,7 +123,7 @@ h1, h2, h3 {
     padding: 50px;
 }
 
-.article-left {
+.article-content {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -144,6 +132,10 @@ h1, h2, h3 {
     width: 500px;
     padding-right: 100px;
     padding-left: 50px;
+}
+
+.article-container:nth-of-type(even) {
+    flex-direction: row-reverse;
 }
 
 .img-right {
@@ -155,24 +147,10 @@ h1, h2, h3 {
     flex-basis: 300px;
     flex-grow: 0;
     flex-shrink: 1;
-    padding-left: 150px;
-}
-
-.variety {
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-    justify-content: space-evenly;
-    align-content: space-around;
-    height: 400px;
-    width: 500px;
-    padding-right: 100px;
     padding-left: 50px;
-    background-color: red;
-    order: 0;
 }
 
-.img-two {
+.img-left {
     display: inline;
     flex-direction: row;
     text-align: left;
@@ -182,13 +160,10 @@ h1, h2, h3 {
     flex-basis: 300px;
     flex-grow: 0;
     flex-shrink: 1;
-    padding-left: 150px;
+    padding-left: 50px;
     order: 1;
 }
 
-.
-
->>>>>>> 3d5de28 (first update):styles.css
 /* --------------- 3.1 Reusables ----------------------- */
 
 /* --------------- 3.2 Other --------------------------- */
